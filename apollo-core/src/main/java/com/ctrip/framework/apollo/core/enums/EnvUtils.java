@@ -25,6 +25,12 @@ public final class EnvUtils {
         return Env.LOCAL;
       case "TOOLS":
         return Env.TOOLS;
+      case "PCITCDEV":
+    	return Env.PCITCDEV;
+      case "PCITCTEST":
+    	return Env.PCITCTEST;
+      case "PCITCPRO":
+    	return Env.PCITCPRO;
       default:
         return Env.UNKNOWN;
     }

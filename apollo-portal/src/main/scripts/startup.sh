@@ -1,9 +1,9 @@
 #!/bin/bash
 SERVICE_NAME=apollo-portal
 ## Adjust log dir if necessary
-LOG_DIR=/opt/logs/100003173
+LOG_DIR=/usr/local/data/apollo/logs/portal
 ## Adjust server port if necessary
-SERVER_PORT=${SERVER_PORT:=8070}
+SERVER_PORT=${SERVER_PORT:=30070}
 
 ## Create log directory if not existed because JDK 8+ won't do that
 mkdir -p $LOG_DIR
